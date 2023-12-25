@@ -214,8 +214,8 @@ body {
   padding: 35px;
   margin-top: 50px;
   margin-top: 20px;
-  border: solid black 2px;
-  border-radius: 67px;
+  /*border: solid black 2px;
+  border-radius: 67px;*/
   font-size: 16px;
   min-height: 250px;
 }
