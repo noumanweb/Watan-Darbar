@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <title>Watan Darbar</title>
-   
+    <title>Watan Darbar</title>
+    <link rel="stylesheet" href="css/Primary_Nav.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="css/Carsouel.css"
+      type="text/css"
+      media="all"
+    />
+	<link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
     <link rel="icon" type="image/x-icon" href="images\Favicon.png" />
-	 <link rel="stylesheet" href="css/Primary_Nav.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
+	h2{
+	text-align:center;
+	padding: 10px 0 10px;
+	}
+	a{
+	text-decoration:none;
+	}
+	a:hover{
+  text-decoration:none;
+  }
       .fa {
         padding: 20px;
         font-size: 30px;
@@ -70,19 +84,19 @@
           </div>
         </div>
       </div>
-    </div>		
-	<!--Welcome Content-->	
-				<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/1.jpg)">
+    </div>
+	<!--Welcome Content-->
+		<div class="hero-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/1.jpg)">
 			  <div class="hero-text">
 				<h1 style="font-size:50px; color:white;">MENU</h1>
 				</div>
 				</div>	
 		<div class="row">			
-			<div class="inside_content" style="text-align:center;">
+			<div class="inside_content">
 			<br><br>
 			<!-- <h1 style="text-align: center">MENU</h1><br> -->
 				<!-- <img  src="images/menu.jpg" alt="MENU" height=600 width=400> -->
-				<img id="myImg" src="images/menu.jpg" alt="" style="width:100%;max-width:300px">
+				<img id="myImg" src="images/menu.jpg" alt="" style="width:400px; height:600px">
 
 					<!-- The Mo	dal -->
 					<div id="myModal" class="modal">
@@ -115,13 +129,30 @@
 					</script>
 				<br>
 				<p>We also take party and catering orders.</p>
-				<p>Call us now!!!</p>
-				<br><br><br>	
+				<p>Call us now!!! <a href="tel:9052262680">Mobile: (905)-226-2680</a> </p>
+					
 			</div>
-				
-			
-		</div>	
-		
+			<main id="main">
+			<h2>Our Specials</h2><br>
+				<div class="slider-container" style="allowfullscreen="" loading="lazy" ">
+					<img style="display: block;" class="slider-image smooth" src="images\1.jpg">
+					<img class="slider-image smooth" src="images\2.jpg">
+					<img class="slider-image smooth" src="images\3.jpg">
+					<img class="slider-image smooth" src="images\4.jpeg">
+					<img class="slider-image smooth" src="images\5.jpg">
+					<button type="button" onclick="prevSlide()" class="slider-button" id="prev"><i class="fa-solid fa-caret-left" style="background: grey;
+			padding: 5px;"></i></button>
+					<button type="button" class="slider-button" id="next"><i class="fa-solid fa-caret-right"style="background: grey;
+			padding: 5px;"></i></button>
+				</div>
+			</main>
+
+    <script src="script.js"></script>
+	
+			<br><br><br>
+		<!-- <div style="padding-bottom:65%"> -->
+		<!-- </div> -->
+	</div>
 	<!--Footer Section-->
     <div class="footer">
       <p>© 2023 WATAN DARBAR. All Rights Reserved. Powered by WD</p>
