@@ -49,17 +49,3 @@
     right: 0;
 }
 
-.smooth{
-    animation: smooth-transition 1s;
-}
-
-@keyframes smooth-transition {
-    from{
-        opacity: 0.7;
-        transform: translateX(var(--transitionValue));
-    }
-    to{
-        transform: translateX();
-        opacity: 1;
-    }
-}
